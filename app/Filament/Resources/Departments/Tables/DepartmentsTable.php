@@ -19,7 +19,7 @@ class DepartmentsTable
                     ->searchable()
                     ->sortable()
                     ->badge()
-                    ->color('primary'),
+                    ->color('success'),
 
                 TextColumn::make('name')
                     ->label('Department Name')
