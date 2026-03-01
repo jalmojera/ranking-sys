@@ -19,7 +19,7 @@ class SectionsTable
                     ->searchable()
                     ->sortable()
                     ->badge()
-                    ->color('primary'),
+                    ->color('success'),
 
                 TextColumn::make('name')
                     ->label('Section Name')
